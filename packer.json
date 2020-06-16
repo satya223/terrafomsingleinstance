@@ -11,7 +11,7 @@
     "region": "us-east-1",
     "source_ami": "ami-085925f297f89fce1",
     "instance_type": "t2.micro",
-    "ssh_username": "ec2-user",
+    "ssh_username": "ubuntu",
     "ami_name": "DevOpsClass-Build-{{isotime | clean_resource_name}}",
     "vpc_id": "vpc-04e69f2a4a09ae2e5",
     "subnet_id": "subnet-0365d6c1d3d38427f"
