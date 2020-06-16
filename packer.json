@@ -19,13 +19,13 @@
   "provisioners": [{
     "type": "shell",
     "inline": [
-      "sleep 30",
-      "sudo apt-get update -y",
-      "sudo apt-get install nginx -y",
+      
+      "sudo apt update -y",
+      "sudo apt install nginx -y",
       "sudo service nginx start",
       "sudo chkconfig nginx on",
-      "sudo apt-get install git -y ",
-      "sudo apt-get install tree stress -y",
+      "sudo apt install git -y ",
+      "sudo apt install tree stress -y",
       "sudo git clone https://github.com/satya223/dynamodblock.git",
       "echo 'task is completed'"
       ]
