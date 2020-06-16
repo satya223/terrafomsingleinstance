@@ -20,14 +20,6 @@
     "type": "shell",
     "inline": [
       
-      "sudo apt update -y",
-      "sudo apt install nginx -y",
-      "sudo service nginx start",
-      "sudo chkconfig nginx on",
-      "sudo apt install git -y ",
-      "sudo apt install tree stress -y",
-      "sudo git clone https://github.com/satya223/dynamodblock.git",
-      "echo 'task is completed'"
       ]
   }]
 }
